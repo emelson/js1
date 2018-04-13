@@ -32,16 +32,26 @@ const myName = "Eric"; //declared and defined
 // let rightNow = new Date(birthday);
 // alert(rightNow);
 
-let myString = "Hello World!";
-alert(myString.length);
+// let myString = "Hello World!";
+// alert(myString.length);
 
-let myArray = ["Sam", 3, "Bryan"]; //must have [], most common conveience method for data
-alert(myArray);
+// let myArray = ["Sam", 3, "Bryan"]; //must have [], most common conveience method for data
+// alert(myArray);
 
 // ALERT();
 // CONFIRM();
 // PROMPT();
 
-const userStory = prompt('tell me, do you take walks?');
+// const userStory = prompt('tell me, do you take walks?');
+//
+// console.log(userStory);
 
-console.log(userStory);
+const firstName = prompt('What is your FIRST name?');
+console.log('My name is ' + firstName);
+
+const lastName = prompt('What is your LAST name?');
+alert('Whats up ' + lastName +'?');
+
+var userBirthday = prompt('What is your birthday?')
+userBirthday = new Date(userBirthday);
+alert(lastName + '! ' + 'You were born on ' + userBirthday);
