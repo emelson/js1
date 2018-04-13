@@ -8,5 +8,6 @@ var userBirthday = prompt('What is your birthday?')
 userBirthday = new Date(userBirthday);
 alert(lastName + '! ' + 'You were born on ' + userBirthday);
 
+
 const thankYou = 'Thank You!';
 alert(thankYou);
